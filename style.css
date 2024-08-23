@@ -6,7 +6,7 @@ body{
     font-size: 18px;
 }
 
-img{
+img#fotoPrincipal{
     border: solid 10px;
     border-radius: 50%;
 }
@@ -33,6 +33,7 @@ a{
     background-color: white;
     color: rgb(31, 20, 104);
     font-size: 20px;
+    font-weight: bolder;
     text-align: center;
     width: 300px;
     padding: 10px;
