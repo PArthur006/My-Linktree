@@ -1,0 +1,42 @@
+body{
+    background: #002150;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+img{
+    border: solid 10px;
+    border-radius: 50%;
+}
+
+aside{
+    background: linear-gradient(45deg, #001935 30%,#2200ff94);
+    max-width: 600px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(165, 197, 255);
+    border-radius: 20px;
+}
+
+h2{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+p{
+    padding: 10px;
+}
+
+a{
+    background-color: white;
+    color: rgb(31, 20, 104);
+    font-size: 20px;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: block;
+}
