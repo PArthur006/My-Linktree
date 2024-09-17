@@ -1,35 +1,50 @@
-body{
+@charset "UTF-8";
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+body {
     background: #002150;
     font-family: 'Trebuchet MS', sans-serif;
     color: white;
     text-align: center;
     font-size: 18px;
+    margin-top: 40px;
 }
 
-img#fotoPrincipal{
+img#fotoPrincipal {
     border: solid 10px;
     border-radius: 50%;
 }
 
-aside{
+aside {
     background: linear-gradient(45deg, #001935 30%,#2200ff94);
-    max-width: 600px;
+    max-width: 500px;
     padding: 20px;
     margin: auto;
     box-shadow: 5px 5px 10px rgb(165, 197, 255);
     border-radius: 20px;
 }
 
-h2{
+h2 {
     font-size: 20px;
-    text-decoration: underline;
+    
 }
 
-p{
+p {
     padding: 10px;
 }
 
-a{
+a {
     background-color: white;
     color: rgb(31, 20, 104);
     font-size: 20px;
@@ -40,4 +55,13 @@ a{
     border-radius: 10px;
     margin: 10px auto;
     display: block;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgb(42, 35, 104);
+    transition: transform 0.4s ease;
+}
+
+a:hover {
+    background-color: rgba(42, 27, 139, 0.548);
+    color: white;
+    transform: scale(1.08);
 }
